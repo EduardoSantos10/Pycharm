@@ -10,7 +10,8 @@ class Control:
               '\n0. Sair'                       +
               '\n1. Exercício 01'               +
               '\n2. Exercício 02'               +
-              '\n3. Exercício 03'               )
+              '\n3. Exercício 03'               +
+              '\n4. Exercício 04'               )
 
     def operacoes(self):
         while(self.opcao != 1):
@@ -24,5 +25,7 @@ class Control:
                 print(self.modelo.exercicioDois())
             elif self.opcao == 3:
                 print(self.modelo.exercicioTres())
+            elif self.opcao == 4:
+                print(self.modelo.exercicioQuatro())
             else:
                 print('Opção escolhida não é válida')

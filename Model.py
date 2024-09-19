@@ -32,7 +32,18 @@ class Model:
         return resultado
 
     def exercicioTres(self):
-        resultado = ""
+        resultado = 0
         for i in range(1,101,1):
-            resultado += f'{i} \n'
+            resultado += i
         return resultado
+
+    def exercicioQuatro(self):
+        resultado = 0
+        for i in range(0,50,5):
+            resultado += i
+        return resultado
+
+    def exercicioSeis(self):
+        resultado = 0
+        num = 0
+        if( num > 10)
