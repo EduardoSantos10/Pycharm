@@ -19,6 +19,20 @@ class Model:
     def mediaTres(self, nota1, nota2, nota3):
         return (nota1 + nota2 + nota3)/3"""
 
-    def exercicioUm(self,num):
-        num = [0,1,2,3,4,5,6,7,8,9,10]
-        print(num[0,11])
+    def exercicioUm(self):
+        resultado = ""
+        for i in range(1,11,1):
+            resultado += f'{i} \n'
+        return resultado
+
+    def exercicioDois(self):
+        resultado = ""
+        for i in range(2,21,2):
+            resultado += f'{i} \n'
+        return resultado
+
+    def exercicioTres(self):
+        resultado = ""
+        for i in range(1,101,1):
+            resultado += f'{i} \n'
+        return resultado
