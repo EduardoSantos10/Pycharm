@@ -43,7 +43,58 @@ class Model:
             resultado += i
         return resultado
 
-    def exercicioSeis(self):
+    def exercicioCinco(self):
+        num = float(input('digite um número: '))
+        if num % 2 == 0:
+            print('par')
+        else:
+            print('impar')
+
+
+    def exercicioSeis(self, num):
+        if num > 0:
+            print('positivo')
+        elif num < 0:
+            print('negativo')
+        elif num == 0:
+            print('numero igual a zero!')
+
+    def exercicioSete(self, num):
+        resultado = " "
+        for i in range(0, 11, 1):  # passa parâmetros
+            resultado += f'{num} * {i} = {num * i}\n'
+        return resultado
+
+    def exercicioOito(self, num):
+        resultado = ''
+        for i in range(0, num, 1):
+            resultado += f'{i}\n'
+        return resultado
+
+    def exercicioNove(self, num):
         resultado = 0
-        num = 0
-        if( num > 10)
+        for i in range(0,(num + 1), 1):
+            resultado += i
+        return resultado
+
+    def exercicioDez(self, num):
+        resultado = '2\n3\n5'
+        for i in range(5, 21, 1):
+            if i % 2 != 0 and i % 3 != 0 and i % 5 != 0: resultado += f'\n{i}'
+        return resultado
+
+    def exercicioOnze(self, num):
+        if num >= 2:
+            for i in range(2, num):
+                if num % i != 0:
+                    print(num, 'é primo')
+                else:
+                    print(num, 'não é primo')
+                    break
+
+
+    def exercicioDoze(self, num):
+        resultado = 1
+        for i in range(1 ,num , 1):
+            resultado *= i
+        return resultado
