@@ -20,7 +20,14 @@ class Control:
               '\n10. Exercício 10'              +
               '\n11. Exercício 11'              +
               '\n12. Exercício 12'              +
-              '\n13. Exercício 13'              )
+              '\n13. Exercício 13'              +
+              '\n14. Exercício 14'              +
+              '\n15. Exercício 15'              +
+              '\n16. Exercício 16'              +
+              '\n17. Exercício 17'              +
+              '\n18. Exercício 18'              +
+              '\n19. Exercício 19'              +
+              '\n20. Exercício 20'              )
 
     def operacoes(self):
         while(self.opcao != 1):
@@ -60,7 +67,9 @@ class Control:
                 num = int(input('informe um número: '))
                 print(self.modelo.exercicioDoze(num))
             elif self.opcao == 13:
+                print(self.modelo.exercicioTreze())
+            elif self.opcao == 14:
                 num = int(input('informe um número: '))
-                print(self.modelo.exercicioTreze(num))
+                print(self.modelo.exercicioQuatorze(num))
             else:
                 print('Opção escolhida não é válida')

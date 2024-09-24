@@ -98,3 +98,38 @@ class Model:
         for i in range(1 ,num , 1):
             resultado *= i
         return resultado
+
+    def exercicioTreze(self):
+
+        resultado = "0\n1\n"
+        fib1 = 0
+        fib2 = 1
+        fib3 = 0
+
+        for i in range(1, 9, 1):
+            fib3 = fib1 + fib2
+            resultado += f'{fib3}\n'
+            fib1 = fib2
+            fib2 = fib3
+        return resultado
+
+    def exercicioQuatorze(self, num):
+
+        resultado = "0\n1\n"
+        fib1 = 0
+        fib2 = 1
+        fib3 = 0
+
+        for i in range(0, 50, 1):
+            fib3 = fib1 + fib2
+            resultado += f'{fib3}\n'
+            fib1 = fib2
+            fib2 = fib3
+            if num == fib3:
+                return f'{num}' "Esse número aparece na tabela de fibonacci"
+
+                return f'{num}' "Esse número não é fibonacci"
+
+        return resultado
+
+
