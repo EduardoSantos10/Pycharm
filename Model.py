@@ -132,4 +132,33 @@ class Model:
 
         return resultado
 
+    def exercicioQuinze(self,num):
+        resto = 0
+        num % 10
+        while num / 10 != 0:
+            resto += num % 10
+            num += int(num / 10)
+        return resto
+
+    def exercicioDezesseis(self, num):
+        par = ""
+        impar = ""
+        resultado = 0
+        for i in range(0, (num + 1), 1):
+            resultado += i
+        num = float(input('digite um número: '))
+        if num % 2 == 0:
+            print('par')
+        else:
+            print('impar')
+        return resultado
+
+    def exercicioDezessete:
+        
+
+
+
+
+
+
 

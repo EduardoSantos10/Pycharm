@@ -71,5 +71,23 @@ class Control:
             elif self.opcao == 14:
                 num = int(input('informe um número: '))
                 print(self.modelo.exercicioQuatorze(num))
+            elif self.opcao == 15:
+                num = int(input('informe um número: '))
+                print(self.modelo.exercicioQuinze(num))
+            elif self.opcao == 16:
+                num = int(input('informe um número: '))
+                print(self.modelo.exercicioDezesseis(num))
+            elif self.opcao == 17:
+                num = int(input('informe um número: '))
+                print(self.modelo.exercicioDezessete(num))
+            elif self.opcao == 18:
+                num = int(input('informe um número: '))
+                print(self.modelo.exercicioDezoito(num))
+            elif self.opcao == 19:
+                num = int(input('informe um número: '))
+                print(self.modelo.exercicioDezenove(num))
+            elif self.opcao == 20:
+                num = int(input('informe um número: '))
+                print(self.modelo.exercicioVinte(num))
             else:
                 print('Opção escolhida não é válida')
